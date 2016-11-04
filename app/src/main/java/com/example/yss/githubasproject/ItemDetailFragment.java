@@ -24,6 +24,16 @@ public class ItemDetailFragment extends Fragment {
      */
     private String itemName;
 
+    public int getIteQuantity() {
+        return iteQuantity;
+    }
+
+    public void setIteQuantity(int iteQuantity) {
+        this.iteQuantity = iteQuantity;
+    }
+
+    private  int iteQuantity;
+
     public String getItemName() {
         return itemName;
     }
